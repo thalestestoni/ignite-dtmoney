@@ -28,7 +28,7 @@ createServer({
           createdAt: new Date('2021-04-10 10:00:00')
         },
       ]
-    })
+    });
   },
 
   routes() {
@@ -44,7 +44,7 @@ createServer({
       return schema.create('transaction', data);
     });
   }
-})
+});
 
 ReactDOM.render(
   <React.StrictMode>
